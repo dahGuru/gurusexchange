@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurus Exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav.JPG" type="image/x-icon">
+</head>
+<body>
+    <div class="hero">
+         <div class="navbar">
+            <img src="images/logo.png" class="logo" >
+            <button type="button">Sign Up</button>
+         </div>
+         <div class="content">
+            <small>Welcome to</small>
+            <h1>Gurus<br>Exchange</h1>
+            <button type="button">Trade With Us</button>
+         </div>
+         <div class="side-bar">
+        <div class="social-links">
+            <a href="https://facebook.com">
+            <img src="images/fb.png">
+            </a>
+
+            <a href="https://instagram.com">
+            <img src="images/ig.png">
+            </a>
+
+            <a href="https://twitter.com">
+            <img src="images/tw.png">
+            </a>
+        </div>
+
+        <div class="useful-links">
+            <img src="images/share.png">
+            <img src="images/info.png">
+        </div>
+
+         </div>
+        
+    <div class="bubbles">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+        <img src="images/bubble.png">
+    </div>
+
+
+
+    </div>
+
+
+
+
+<!--Navigation Bar Start-->
+        <nav id="sideNav">
+         <ul>
+             <li><a href="#">HOME</a></li>
+             <li><a href="#">ABOUT</a></li>
+             <li><a href="#">CONTACT</a></li>
+             <li><a href="#">OFFERS</a></li>
+         </ul>
+        </nav>
+    <img src="images/menu.png" id="menuBtn">
+
+     <script>
+       var menuBtn = document.getElementById("menuBtn");
+       var sideNav = document.getElementById("sideNav");
+
+       sideNav.style.right = "-125px";
+       menuBtn.onclick = function(){
+             if(sideNav.style.right == "-125px"){
+                 sideNav.style.right = "0";
+             }
+             else{
+                sideNav.style.right = "-125px";
+             }
+       }
+     </script>
+
+<!--Navigation Bar End-->
+
+</body>
+</html>
